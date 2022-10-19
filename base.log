@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  12 OCT 2022 00:01
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  19 OCT 2022 19:14
  system commands enabled.
 **base.tex
 (./base.tex
@@ -230,12 +230,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            synonyms	
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-ru.tex
 (polyglossia)            righthyphenmin	2
-(polyglossia)            synonyms	 on input line 17
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            patterns	hyph-ru.pat.txt on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1138,9 +1138,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (./RefProject-base.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] (./_minted-base/default.pygstyle)
-(./_minted-base/5FF0F4F8A7CCBFA695195D8AB278DDC6962580AAA5FC6BF1ED22ED1B59926C6
+runsystem(pygmentize -l VHDL -f latex -P commandprefix=PYG -F tokenmerge -P stri
+pnl=False -o _minted-base/E589FCE52386A26E7B7666BFF7C0DCAF962580AAA5FC6BF1ED22ED
+1B59926C64.pygtex fdc.vhd)...executed
+
+(./_minted-base/E589FCE52386A26E7B7666BFF7C0DCAF962580AAA5FC6BF1ED22ED1B59926C6
 4.pygtex)
-(./_minted-base/FC1B5B3083DC51C6162CAEE0E93C9B045667C691F2A036B5426F5F72B2AA5A8
+(./_minted-base/DE11ED695BC8CC7762D00C65F1FE0C6C5667C691F2A036B5426F5F72B2AA5A8
 D.pygtex [2])
 <Figures/2022-10-10_22-59-24.png, id=61, 749.80125pt x 142.5325pt>
 File: Figures/2022-10-10_22-59-24.png Graphic file (type png)
@@ -1148,7 +1152,11 @@ File: Figures/2022-10-10_22-59-24.png Graphic file (type png)
 Package luatex.def Info: Figures/2022-10-10_22-59-24.png  used on input line 91
 .
 (luatex.def)             Requested size: 456.66672pt x 86.80984pt.
- [3<./Figures/2022-10-10_22-59-24.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
 <Figures/2022-10-11_19-48-02.png, id=69, 594.22pt x 243.91125pt>
 File: Figures/2022-10-11_19-48-02.png Graphic file (type png)
 <use Figures/2022-10-11_19-48-02.png>
@@ -1161,14 +1169,22 @@ File: Figures/2022-10-11_20-10-59.png Graphic file (type png)
 Package luatex.def Info: Figures/2022-10-11_20-10-59.png  used on input line 10
 7.
 (luatex.def)             Requested size: 456.66672pt x 230.06354pt.
- [4<./Figures/2022-10-11_19-48-02.png><./Figures/2022-10-11_20-10-59.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4<./Figures/2022-10-10_22-59-24.png><./Figures/2022-10-11_19-48-02.png>]
 <Figures/2022-10-11_22-17-53.png, id=80, 705.63625pt x 423.5825pt>
 File: Figures/2022-10-11_22-17-53.png Graphic file (type png)
 <use Figures/2022-10-11_22-17-53.png>
 Package luatex.def Info: Figures/2022-10-11_22-17-53.png  used on input line 11
-7.
+9.
 (luatex.def)             Requested size: 456.66672pt x 274.12964pt.
- [5<./Figures/2022-10-11_22-17-53.png>])
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5<./Figures/2022-10-11_20-10-59.png>] [6<./Figures/2022-10-11_22-17-53.png>])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1262,12 +1278,14 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
+runsystem(del _minted-base\37F6F5E9F803B10F81CD543112291B67962580AAA5FC6BF1ED22E
+D1B59926C64.pygtex)...executed
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 59.
 See the caption package documentation for explanation.
 
-[6] [7] (./base.aux)
+[7] (./base.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1276,19 +1294,18 @@ Package rerunfilecheck Info: File `base.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22702 strings out of 477356
+ 22708 strings out of 477356
  125038,953878 words of node,token memory allocated
  658 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 86 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2032,3:134,4:1120,5:726,6:44,7:5524,8:17,9:282,10:25,11:72
-1
- 42823 multiletter control sequences out of 65536+600000
- 52 fonts using 12518111 bytes
- 86i,6n,115p,1181b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:2336,3:132,4:1230,5:726,6:33,7:4879,8:17,9:294,10:20,11:444
+ 42826 multiletter control sequences out of 65536+600000
+ 53 fonts using 13057419 bytes
+ 86i,6n,115p,981b,754s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/tim
 es.ttf>
-Output written on base.pdf (8 pages, 241825 bytes).
+Output written on base.pdf (8 pages, 257727 bytes).
 
 PDF statistics: 119 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
