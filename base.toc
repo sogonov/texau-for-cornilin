@@ -3,7 +3,8 @@
 \contentsline {subsection}{\numberline {1.1}Создание проекта и описание устройства с помощью VHDL}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Симуляция устройства}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Синтез цифрового устройства}{4}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Временные ограничения}{5}{subsubsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.4}РЕАЛИЗАЦИЯ}{6}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Индивидуальные задания}{6}{subsection.1.5}%
-\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{7}{section*.5}%
+\contentsline {subsubsection}{\numberline {1.3.1}Схема цифрового устройства}{4}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Временные ограничения}{6}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}РЕАЛИЗАЦИЯ}{8}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Индивидуальные задания}{10}{subsection.1.5}%
+\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{13}{section*.19}%

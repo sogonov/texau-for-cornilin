@@ -8,7 +8,6 @@ entity fdc is --Декларация entity
 		Q : out STD_LOGIC);--описание портов, в данном случае типа out
 end fdc;
 
-
 -- архитектурное тело
 architecture Behavioral of fdc is --Архитектура Behavioral для интерфейса fdc
 signal x_0, x_1 : STD_LogIC; --внутренние сигналы x_0  и X_1,это нужно для того, 
