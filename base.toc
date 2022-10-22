@@ -7,4 +7,4 @@
 \contentsline {subsubsection}{\numberline {1.3.2}Временные ограничения}{6}{subsubsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.4}РЕАЛИЗАЦИЯ}{8}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Индивидуальные задания}{10}{subsection.1.5}%
-\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{13}{section*.19}%
+\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{14}{section*.21}%
