@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 00:50
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 12:03
  system commands enabled.
 **base.tex
 (./base.tex
@@ -65,26 +65,7 @@ ex-cache/generic/names/luaotfload-names.luc.gz)
 \belowcaptionskip=\skip48
 \bibindent=\dimen137
 )
-(e:/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-
-(e:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2aenc.def
-File: t2aenc.def 2022/06/11 v1.0j Cyrillic encoding definition file
-)
-LaTeX Font Info:    Trying to load font information for T2A+lmr on input line 1
-12.
-LaTeX Font Info:    No file T2Almr.fd. on input line 112.
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
-12.
-
-(e:/texlive/2022/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-
-LaTeX Font Warning: Font shape `T2A/lmr/m/n' undefined
-(Font)              using `T2A/cmr/m/n' instead on input line 112.
-
-) (e:/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+(e:/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2022/07/18 v1.57 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
 
@@ -230,12 +211,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            synonyms	
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            synonyms	
 (polyglossia)            patterns	hyph-ru.pat.txt
 (polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 17
+(polyglossia)            righthyphenmin	2
+(polyglossia)            loader	loadhyph-ru.tex on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -908,98 +889,96 @@ runsystem(del base.aex)...executed
  (./base.aux)
 \openout1 = base.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-12.
+04.
 
 (e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 112.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 112.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 112.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 112.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 112.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 112.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 112.
-LaTeX Font Info:    Redeclaring math accent \check on input line 112.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 112.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 112.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 112.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 112.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 112.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 104.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 104.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 104.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 104.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 104.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 104.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 104.
+LaTeX Font Info:    Redeclaring math accent \check on input line 104.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 104.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 104.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 104.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 104.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 112.
+(Font)              `operators' in the math version `normal' on input line 104.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(1)/m/n on input line 1
-12.
+04.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 112.
+(Font)              `operators' in the math version `bold' on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(1)/m/n on input line 
-112.
+104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
-input line 112.
+input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(1)/m/it on input line
- 112.
+ 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(1)/b/n on input line 
-112.
+104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 112.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 112.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 104.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/b/n on 
-input line 112.
+input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(1)/b/it on input lin
-e 112.
+e 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 112.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 104.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 112.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 104.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {russian/target}  =>  {russian}
@@ -1063,7 +1042,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 112.
+Package hyperref Info: Link coloring OFF on input line 104.
 
 (./base.out) (./base.out)
 \@outlinefile=\write5
@@ -1413,26 +1392,26 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/options}  =>  {variant=newzealand}.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 58.
+Package caption Warning: Unused \captionsetup[table] on input line 53.
 See the caption package documentation for explanation.
 
 [17] (./base.aux)
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `base.out' has not changed.
 (rerunfilecheck)             Checksum: 48222E3C7053A84B8D85F21D5A590346;2260.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22998 strings out of 477356
+ 22248 strings out of 477356
  125038,953878 words of node,token memory allocated
  662 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 86 glue_spec,
  8 attribute_list, 1 write nodes
-   avail lists: 2:2214,3:196,4:1168,5:821,6:39,7:5293,8:26,9:368,10:22,11:664
- 42959 multiletter control sequences out of 65536+600000
- 53 fonts using 13057419 bytes
+   avail lists: 2:2217,3:196,4:1168,5:821,6:39,7:5293,8:26,9:368,10:22,11:664
+ 42236 multiletter control sequences out of 65536+600000
+ 52 fonts using 12999395 bytes
  86i,7n,115p,1371b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/tim
 es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
@@ -1440,7 +1419,7 @@ es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2022/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on base.pdf (18 pages, 668360 bytes).
+Output written on base.pdf (18 pages, 668371 bytes).
 
 PDF statistics: 245 PDF objects out of 1000 (max. 8388607)
  174 compressed objects within 2 object streams
