@@ -10,7 +10,7 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: base.tex
-          working-directory: /vivado1
+          working-directory: vivado1/
           latexmk_use_lualatex: true
           latexmk_shell_escape: true
           
