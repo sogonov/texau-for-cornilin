@@ -8,14 +8,14 @@ jobs:
         uses: actions/checkout@v1
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
-        with:
-          root_file: base.tex
-          working-directory: vivado1/
-          latexmk_use_lualatex: true
-          latexmk_shell_escape: true
-          
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v1
-        with:
-          name: PDF
-          path: main.pdf
+    with:
+        # Переименуйте, если у вас другой файл
+        root_file: main.tex
+        # Больше параметров в офф. документации
+        working_directory: vivado1/
+        # Аргументы, к которыми запускать компилятор (latexmk)
+        # -jobname=<name> дает возможность поменять имя выходного файла
+        args: -jobname=my_doc -pdf -file-line-error -halt-on-error -interaction=nonstopmode
+        compiler: latexmk
+         
+     
