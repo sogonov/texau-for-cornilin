@@ -12,7 +12,7 @@ jobs:
           root_file: base.tex
           latexmk_use_lualatex: true
           latexmk_shell_escape: true
-          working-directory: ./vivado1
+          working-directory: /vivado1
       - name: Upload PDF file
         uses: actions/upload-artifact@v1
         with:
