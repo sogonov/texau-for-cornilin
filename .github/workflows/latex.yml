@@ -16,6 +16,9 @@ jobs:
         # Больше параметров в офф. документации
         working_directory: vivado1/
         # Аргументы, к которыми запускать компилятор (latexmk)
+        extra_system_packages: "minted"
         # -jobname=<name> дает возможность поменять имя выходного файла
         args: -jobname=my_doc -pdf -file-line-error -halt-on-error -interaction=nonstopmode
         compiler: latexmk
+        latexmk_use_lualatex: true
+        latexmk_shell_escape: true
