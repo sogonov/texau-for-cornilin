@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: main.tex
+          root_file: base.tex
 	working_directory: vivado1/
           latexmk_use_lualatex: true
       - name: Upload PDF file
