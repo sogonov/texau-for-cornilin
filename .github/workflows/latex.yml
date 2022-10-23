@@ -9,10 +9,10 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
-          working-directory: ./vivado1
           root_file: base.tex
           latexmk_use_lualatex: true
           latexmk_shell_escape: true
+          working-directory: ./vivado1
       - name: Upload PDF file
         uses: actions/upload-artifact@v1
         with:
