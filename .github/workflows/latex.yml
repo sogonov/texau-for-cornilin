@@ -18,7 +18,6 @@ jobs:
         # Аргументы, к которыми запускать компилятор (latexmk)
         work_in_root_file_dir: true
         extra_fonts: |
-         #./path/to/custom.ttf
          fonts/*.ttf
         # -jobname=<name> дает возможность поменять имя выходного файла
         args: -jobname=my_doc -pdf -file-line-error -halt-on-error -interaction=nonstopmode
