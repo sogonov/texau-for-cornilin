@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 00:50
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 11:27
  system commands enabled.
 **base.tex
 (./base.tex
@@ -230,12 +230,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            synonyms	
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            loader	loadhyph-ru.tex
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            righthyphenmin	2 on input line 17
+(polyglossia)            synonyms	
+(polyglossia)            righthyphenmin	2
+(polyglossia)            lefthyphenmin	2 on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
