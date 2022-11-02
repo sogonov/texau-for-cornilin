@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 13:15
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  31 OCT 2022 06:22
  system commands enabled.
 **base.tex
 (./base.tex
@@ -211,12 +211,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
+(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-ru.tex
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
-(polyglossia)            hyphenation	hyph-ru.hyp.txt
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            righthyphenmin	2 on input line 17
+(polyglossia)            hyphenation	hyph-ru.hyp.txt
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            synonyms	 on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1442,7 +1442,7 @@ es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2022/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on base.pdf (18 pages, 668189 bytes).
+Output written on base.pdf (18 pages, 671306 bytes).
 
 PDF statistics: 240 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams

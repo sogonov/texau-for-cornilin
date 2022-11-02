@@ -1,0 +1,109 @@
+
+**** 10/31/22 03:46:56 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fsggarse"  [ E:\ORCADNOE\filter\dasha-PSpiceFiles\SCHEMATIC1\fsggarse.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "fsggarse.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\Cadence\SPB_16.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC OCT 10000 10k 100k
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DASHA
+E_U1         OUT_HIGHPASS 0 VALUE {LIMIT(V(N00406,N00302)*1E6,-15V,+15V)} _U1
++  N00406 N00302 1G
+
+E_U2         OUT_BANDPASS 0 VALUE {LIMIT(V(N00438,N00485)*1E6,-15V,+15V)} _U2
++  N00438 N00485 1G
+
+E_U3         OUT_LOWPASS 0 VALUE {LIMIT(V(N00516,N00369)*1E6,-15V,+15V)} _U3
++  N00516 N00369 1G
+
+R_R1         IN N00302  {R1} TC=0,0 
+R_R2         0 N00406  {R1} TC=0,0 
+R_R3         0 N00438  {R1} TC=0,0 
+R_R4         OUT_HIGHPASS N00485  {R1} TC=0,0 
+R_R5         N00302 OUT_HIGHPASS  {R1} TC=0,0 
+R_R6         N00485 OUT_BANDPASS  1Meg TC=0,0 
+R_R7         OUT_BANDPASS N00369  {R1} TC=0,0 
+R_R8         0 N00516  {R1} TC=0,0 
+R_R9         OUT_LOWPASS N00369  1Meg TC=0,0 
+R_R10         OUT_LOWPASS N00302  {R1} TC=0,0 
+R_R11         OUT_BANDPASS N00406  {R2} TC=0,0 
+C_C1         N00485 OUT_BANDPASS  {C}  TC=0,0 
+C_C2         N00369 OUT_LOWPASS  {C}  TC=0,0 
+V_V1         IN 0 DC 1 AC 1 
+.PARAM  r1=1.718k r2=86.702k r3=1 c=3n
+
+**** RESUMING fsggarse.cir ****
+.END
+
+**** 10/31/22 03:46:56 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fsggarse"  [ E:\ORCADNOE\filter\dasha-PSpiceFiles\SCHEMATIC1\fsggarse.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    1.0000  (N00302) 33.40E-06 (N00369) 999.9E-09 (N00406) 33.40E-06     
+
+(N00438)    0.0000 (N00485)-1.719E-09 (N00516)    0.0000 (OUT_LOWPASS)    -.9999
+
+(OUT_BANDPASS)     .0017              (OUT_HIGHPASS)-2.955E-06              
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.821E-04
+
+    TOTAL POWER DISSIPATION   5.82E-04  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 10/31/22 03:46:56 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-fsggarse"  [ E:\ORCADNOE\filter\dasha-PSpiceFiles\SCHEMATIC1\fsggarse.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.53
+

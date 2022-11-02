@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 OCT 2022 12:03
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  25 OCT 2022 00:12
  system commands enabled.
 **base.tex
 (./base.tex
@@ -212,11 +212,11 @@ braces):
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            synonyms	
-(polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-ru.tex on input line 17
+(polyglossia)            patterns	hyph-ru.pat.txt
+(polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            lefthyphenmin	2 on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -886,99 +886,125 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > bas
 e.aex <nul: /p x=^%~$PATH:i>> base.aex)...failed 
 runsystem(del base.aex)...executed
- (./base.aux)
+ (./base.aux
+
+Package fontspec Info: Font family 'TimesNewRoman(2)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [Renderer=Harfbuzz,Ligatures=TeX,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman:mode=harf;script=cyrl;language=dflt;+t
+lig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/B:mode=harf;script=cyrl;language=dflt;
++tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/I:mode=harf;script=cyrl;language=dflt;
++tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TimesNewRoman/BI:mode=harf;script=cyrl;language=dflt
+;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+)
 \openout1 = base.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-04.
+03.
 
 (e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 104.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 104.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 104.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 104.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 104.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 104.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 104.
-LaTeX Font Info:    Redeclaring math accent \check on input line 104.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 104.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 104.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 104.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 104.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 103.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 103.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 103.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 103.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 103.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 103.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 103.
+LaTeX Font Info:    Redeclaring math accent \check on input line 103.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 103.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 103.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 103.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 103.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 104.
+(Font)              `operators' in the math version `normal' on input line 103.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(1)/m/n on input line 1
-04.
+03.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 104.
+(Font)              `operators' in the math version `bold' on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(1)/m/n on input line 
-104.
+103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/m/n on 
-input line 104.
+input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(1)/m/it on input line
- 104.
+ 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(1)/b/n on input line 
-104.
+103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 104.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 104.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 103.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(1)/m/n --> TU/TimesNewRoman(1)/b/n on 
-input line 104.
+input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(1)/b/it on input lin
-e 104.
+e 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 104.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 103.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 104.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 103.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {russian/target}  =>  {russian}
@@ -1042,7 +1068,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 (./base.out) (./base.out)
 \@outlinefile=\write5
@@ -1090,7 +1116,7 @@ Package caption Info: End \AtBeginDocument code.
 \maxl=\skip92
 
 Underfull \hbox (badness 10000) detected at line 43
-\TU/TimesNewRoman(0)/m/n/14.4 6364-120304D
+\TU/TimesNewRoman(2)/m/n/14.4 6364-120304D
  []
 
 
@@ -1121,101 +1147,101 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 3.pygtex)
 (./_minted-base/C614C495BFBB0B6D23641B5343FE2A97EA4AE9D5085AB2F0272BE5ABB899000
 9.pygtex [2])
-<Figures/2022-10-10_22-59-24.png, id=66, 734.745pt x 121.20282pt>
+<Figures/2022-10-10_22-59-24.png, id=61, 734.745pt x 121.20282pt>
 File: Figures/2022-10-10_22-59-24.png Graphic file (type png)
 <use Figures/2022-10-10_22-59-24.png>
-Package luatex.def Info: Figures/2022-10-10_22-59-24.png  used on input line 89
+Package luatex.def Info: Figures/2022-10-10_22-59-24.png  used on input line 87
 .
 (luatex.def)             Requested size: 456.66672pt x 75.3336pt.
  [3<./Figures/2022-10-10_22-59-24.png>]
-<Figures/2022-10-20_00-24-24.png, id=75, 448.67625pt x 214.55156pt>
+<Figures/2022-10-20_00-24-24.png, id=70, 448.67625pt x 214.55156pt>
 File: Figures/2022-10-20_00-24-24.png Graphic file (type png)
 <use Figures/2022-10-20_00-24-24.png>
 Package luatex.def Info: Figures/2022-10-20_00-24-24.png  used on input line 10
-6.
+4.
 (luatex.def)             Requested size: 456.66672pt x 218.38135pt.
-<Figures/2022-10-11_20-10-59.png, id=77, 531.9875pt x 268.00125pt>
+<Figures/2022-10-11_20-10-59.png, id=72, 531.9875pt x 268.00125pt>
 File: Figures/2022-10-11_20-10-59.png Graphic file (type png)
 <use Figures/2022-10-11_20-10-59.png>
 Package luatex.def Info: Figures/2022-10-11_20-10-59.png  used on input line 10
-9.
+7.
 (luatex.def)             Requested size: 456.66672pt x 230.06354pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/2022-10-11_19-48-02.png, id=79, 594.22pt x 243.91125pt>
+<Figures/2022-10-11_19-48-02.png, id=74, 594.22pt x 243.91125pt>
 File: Figures/2022-10-11_19-48-02.png Graphic file (type png)
 <use Figures/2022-10-11_19-48-02.png>
 Package luatex.def Info: Figures/2022-10-11_19-48-02.png  used on input line 11
-6.
+4.
 (luatex.def)             Requested size: 456.66672pt x 187.45866pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4<./Figures/2022-10-20_00-24-24.png>] [5<./Figures/2022-10-11_20-10-59.png><./F
 igures/2022-10-11_19-48-02.png>]
-<Figures/2022-10-11_22-17-53.png, id=95, 786.68906pt x 190.46156pt>
+<Figures/2022-10-11_22-17-53.png, id=90, 786.68906pt x 190.46156pt>
 File: Figures/2022-10-11_22-17-53.png Graphic file (type png)
 <use Figures/2022-10-11_22-17-53.png>
 Package luatex.def Info: Figures/2022-10-11_22-17-53.png  used on input line 12
-4.
+2.
 (luatex.def)             Requested size: 456.66672pt x 110.56367pt.
-<Figures/2022-10-20_04-19-58.png, id=97, 468.24937pt x 192.72pt>
+<Figures/2022-10-20_04-19-58.png, id=92, 468.24937pt x 192.72pt>
 File: Figures/2022-10-20_04-19-58.png Graphic file (type png)
 <use Figures/2022-10-20_04-19-58.png>
 Package luatex.def Info: Figures/2022-10-20_04-19-58.png  used on input line 12
-7.
+5.
 (luatex.def)             Requested size: 456.66672pt x 187.96445pt.
-<Figures/2022-10-20_04-19-59.png, id=99, 465.23813pt x 195.73125pt>
+<Figures/2022-10-20_04-19-59.png, id=94, 465.23813pt x 195.73125pt>
 File: Figures/2022-10-20_04-19-59.png Graphic file (type png)
 <use Figures/2022-10-20_04-19-59.png>
-Package luatex.def Info: Figures/2022-10-20_04-19-59.png  used on input line 13
-0.
+Package luatex.def Info: Figures/2022-10-20_04-19-59.png  used on input line 12
+8.
 (luatex.def)             Requested size: 456.66672pt x 192.13188pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/2022-10-20_04-19-57.png, id=101, 330.48468pt x 213.79875pt>
+<Figures/2022-10-20_04-19-57.png, id=96, 330.48468pt x 213.79875pt>
 File: Figures/2022-10-20_04-19-57.png Graphic file (type png)
 <use Figures/2022-10-20_04-19-57.png>
 Package luatex.def Info: Figures/2022-10-20_04-19-57.png  used on input line 13
-3.
+1.
 (luatex.def)             Requested size: 229.04468pt x 148.18027pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/2022-10-11_22-17-3.png, id=103, 788.9475pt x 190.46156pt>
+<Figures/2022-10-11_22-17-3.png, id=98, 788.9475pt x 190.46156pt>
 File: Figures/2022-10-11_22-17-3.png Graphic file (type png)
 <use Figures/2022-10-11_22-17-3.png>
-Package luatex.def Info: Figures/2022-10-11_22-17-3.png  used on input line 137
+Package luatex.def Info: Figures/2022-10-11_22-17-3.png  used on input line 135
 .
 (luatex.def)             Requested size: 456.66672pt x 110.24399pt.
 [6<./Figures/2022-10-11_22-17-53.png><./Figures/2022-10-20_04-19-58.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/2022-10-20_04-51-55.png, id=117, 275.52937pt x 144.54pt>
+<Figures/2022-10-20_04-51-55.png, id=112, 275.52937pt x 144.54pt>
 File: Figures/2022-10-20_04-51-55.png Graphic file (type png)
 <use Figures/2022-10-20_04-51-55.png>
 Package luatex.def Info: Figures/2022-10-20_04-51-55.png  used on input line 13
-9.
+7.
 (luatex.def)             Requested size: 229.04468pt x 120.16002pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7<./Figures/2022-10-20_04-19-59.png><./Figures/2022-10-20_04-19-57.png>]
-<Figures/2022-10-20_05-12-48.png, id=126, 634.37pt x 351.3125pt>
+<Figures/2022-10-20_05-12-48.png, id=121, 634.37pt x 351.3125pt>
 File: Figures/2022-10-20_05-12-48.png Graphic file (type png)
 <use Figures/2022-10-20_05-12-48.png>
 Package luatex.def Info: Figures/2022-10-20_05-12-48.png  used on input line 14
-9.
+7.
 (luatex.def)             Requested size: 342.8557pt x 189.87746pt.
-<Figures/2022-10-20_05-12-8.png, id=127, 233.37187pt x 192.72pt>
+<Figures/2022-10-20_05-12-8.png, id=122, 233.37187pt x 192.72pt>
 File: Figures/2022-10-20_05-12-8.png Graphic file (type png)
 <use Figures/2022-10-20_05-12-8.png>
-Package luatex.def Info: Figures/2022-10-20_05-12-8.png  used on input line 153
+Package luatex.def Info: Figures/2022-10-20_05-12-8.png  used on input line 151
 .
 (luatex.def)             Requested size: 229.04468pt x 189.15541pt.
 
@@ -1224,73 +1250,73 @@ s/2022-10-20_05-12-48.png>] [9<./Figures/2022-10-20_05-12-8.png>]
 Missing character: There is no Г (U+0413) in font cmmi12!
 Missing character: There is no Г (U+0413) in font cmmi12!
 Missing character: There is no ц (U+0446) in font cmmi12!
-<Figures/2022-10-20_05-12-8111.png, id=142, 508.90125pt x 398.23781pt>
+<Figures/2022-10-20_05-12-8111.png, id=137, 508.90125pt x 398.23781pt>
 File: Figures/2022-10-20_05-12-8111.png Graphic file (type png)
 <use Figures/2022-10-20_05-12-8111.png>
 Package luatex.def Info: Figures/2022-10-20_05-12-8111.png  used on input line 
-168.
+166.
 (luatex.def)             Requested size: 456.66672pt x 357.37769pt.
-<Figures/2022-10-20_07-13-49.png, id=143, 1057.9525pt x 605.26125pt>
+<Figures/2022-10-20_07-13-49.png, id=138, 1057.9525pt x 605.26125pt>
 File: Figures/2022-10-20_07-13-49.png Graphic file (type png)
 <use Figures/2022-10-20_07-13-49.png>
 Package luatex.def Info: Figures/2022-10-20_07-13-49.png  used on input line 17
-3.
+1.
 (luatex.def)             Requested size: 456.66672pt x 261.26393pt.
-<Figures/2022-10-20_07-18-05.png, id=144, 1062.97125pt x 603.25375pt>
+<Figures/2022-10-20_07-18-05.png, id=139, 1062.97125pt x 603.25375pt>
 File: Figures/2022-10-20_07-18-05.png Graphic file (type png)
 <use Figures/2022-10-20_07-18-05.png>
 Package luatex.def Info: Figures/2022-10-20_07-18-05.png  used on input line 17
-4.
+2.
 (luatex.def)             Requested size: 456.66672pt x 259.17314pt.
 [10<./Figures/2022-10-20_05-12-8111.png>]
-<Figures/2022-10-20_07-19-58.png, id=155, 1059.96pt x 602.25pt>
+<Figures/2022-10-20_07-19-58.png, id=150, 1059.96pt x 602.25pt>
 File: Figures/2022-10-20_07-19-58.png Graphic file (type png)
 <use Figures/2022-10-20_07-19-58.png>
 Package luatex.def Info: Figures/2022-10-20_07-19-58.png  used on input line 17
-5.
+3.
 (luatex.def)             Requested size: 456.66672pt x 259.46786pt.
-<Figures/2022-10-20_07-40-02.png, id=156, 1054.94125pt x 606.265pt>
+<Figures/2022-10-20_07-40-02.png, id=151, 1054.94125pt x 606.265pt>
 File: Figures/2022-10-20_07-40-02.png Graphic file (type png)
 <use Figures/2022-10-20_07-40-02.png>
 Package luatex.def Info: Figures/2022-10-20_07-40-02.png  used on input line 17
-6.
+4.
 (luatex.def)             Requested size: 456.66672pt x 262.43727pt.
  [11<./Figures/2022-10-20_07-13-49.png><./Figures/2022-10-20_07-18-05.png>]
-<Figures/2022-10-20_07-41-42.png, id=164, 1054.94125pt x 602.25pt>
+<Figures/2022-10-20_07-41-42.png, id=158, 1054.94125pt x 602.25pt>
 File: Figures/2022-10-20_07-41-42.png Graphic file (type png)
 <use Figures/2022-10-20_07-41-42.png>
 Package luatex.def Info: Figures/2022-10-20_07-41-42.png  used on input line 17
-7.
+5.
 (luatex.def)             Requested size: 456.66672pt x 260.69928pt.
  [12<./Figures/2022-10-20_07-19-58.png><./Figures/2022-10-20_07-40-02.png>]
-<Figures/beh_50mhz.png, id=171, 791.20593pt x 452.4403pt>
+<Figures/beh_50mhz.png, id=166, 791.20593pt x 452.4403pt>
 File: Figures/beh_50mhz.png Graphic file (type png)
 <use Figures/beh_50mhz.png>
-Package luatex.def Info: Figures/beh_50mhz.png  used on input line 183.
+Package luatex.def Info: Figures/beh_50mhz.png  used on input line 181.
 (luatex.def)             Requested size: 456.66672pt x 261.13838pt.
  [13<./Figures/2022-10-20_07-41-42.png><./Figures/beh_50mhz.png>]
-<Figures/scopes.png, id=180, 468.24937pt x 299.61937pt>
+<Figures/scopes.png, id=175, 468.24937pt x 299.61937pt>
 File: Figures/scopes.png Graphic file (type png)
 <use Figures/scopes.png>
-Package luatex.def Info: Figures/scopes.png  used on input line 190.
+Package luatex.def Info: Figures/scopes.png  used on input line 188.
 (luatex.def)             Requested size: 456.66672pt x 292.226pt.
 
-Underfull \hbox (badness 3439) in paragraph at lines 207--208
-[]\TU/TimesNewRoman(0)/m/n/14.4 Наи-бо-лее из-вест-ные язы-
+Underfull \hbox (badness 3439) in paragraph at lines 205--206
+[]\TU/TimesNewRoman(2)/m/n/14.4 Наи-бо-лее из-вест-ные язы-
 ки опи-са-ния ап-па-ра-ту-ры - VHDL, Verilog,
  []
 
 [14<./Figures/scopes.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-[]\TU/TimesNewRoman(0)/m/it/14.4 4. Опи-ши-те стан-дарт-ный 
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]\TU/TimesNewRoman(2)/m/it/14.4 4. Опи-ши-те стан-дарт-ный 
 про-цесс про-ек-ти-ро-ва-ния циф-ро-вых
  []
 
-<Figures/2022-10-20_05-12-811.png, id=188, 272.51813pt x 253.69781pt>
+<Figures/2022-10-20_05-12-811.png, id=183, 272.51813pt x 253.69781pt>
 File: Figures/2022-10-20_05-12-811.png Graphic file (type png)
 <use Figures/2022-10-20_05-12-811.png>
 Package luatex.def Info: Figures/2022-10-20_05-12-811.png  used on input line 2
-18.
+16.
 (luatex.def)             Requested size: 229.04468pt x 213.2247pt.
 
 (./_minted-base/3E5815F8C60E9EEE4883A7B4B308CE61962580AAA5FC6BF1ED22ED1B59926C6
@@ -1392,26 +1418,23 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/options}  =>  {variant=newzealand}.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 53.
+Package caption Warning: Unused \captionsetup[table] on input line 52.
 See the caption package documentation for explanation.
 
 [17] (./base.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `base.out' has not changed.
-(rerunfilecheck)             Checksum: 48222E3C7053A84B8D85F21D5A590346;2260.
+(rerunfilecheck)             Checksum: 28E8BA725C0BFBD7712650D8CF775E29;2074.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22248 strings out of 477356
+ 22263 strings out of 477356
  125038,953878 words of node,token memory allocated
  662 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 86 glue_spec,
  8 attribute_list, 1 write nodes
-   avail lists: 2:2217,3:196,4:1168,5:821,6:39,7:5293,8:26,9:368,10:22,11:664
- 42236 multiletter control sequences out of 65536+600000
- 52 fonts using 12999395 bytes
+   avail lists: 2:2214,3:196,4:1092,5:821,6:39,7:5293,8:26,9:350,10:22,11:664
+ 42252 multiletter control sequences out of 65536+600000
+ 65 fonts using 21479451 bytes
  86i,7n,115p,1371b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/tim
 es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
@@ -1419,10 +1442,10 @@ es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2022/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on base.pdf (18 pages, 668371 bytes).
+Output written on base.pdf (18 pages, 671306 bytes).
 
-PDF statistics: 245 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 240 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 131072)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 

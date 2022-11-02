@@ -1,0 +1,18 @@
+** Profile: "SCHEMATIC1-fsggarse"  [ E:\ORCADNOE\filter\dasha-PSpiceFiles\SCHEMATIC1\fsggarse.sim ] 
+
+** Creating circuit file "fsggarse.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\Cadence\SPB_16.5\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC OCT 10000 10k 100k
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

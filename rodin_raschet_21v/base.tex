@@ -1,0 +1,134 @@
+\documentclass[a4paper]{article} %размер бумаги устанавливаем А4
+% \usepackage[T2A]{fontenc}
+\usepackage{polyglossia}
+\setmainlanguage[babelshorthands=true]{russian} % Язык по-умолчанию русский с поддержкой приятных команд пакета babel
+\setotherlanguage{english} % Дополнительный язык = английский (в американской вариации по-умолчанию)
+\newfontfamily{\cyrillicfonttt}{Times New Roman}
+% \newfontfamily\cyrillicfont{Times New Roman}
+% \usepackage{minted} %пакет для подсветки кода
+\usepackage{color}
+\usepackage{xcolor} % to access the named colour LightGray
+\definecolor{LightGray}{gray}{0.9}
+
+% для отступа в первом абзаце
+\usepackage{indentfirst} 
+\parindent=1.25cm % длина отступа в абзацах
+% для продвинутых списков
+\usepackage{enumitem} 
+\usepackage{amssymb,amsfonts,amsmath,cite,enumerate,float,indentfirst} %пакеты расширений
+\usepackage{graphicx}% для вставки картинок
+\usepackage{url} % добавляем поддержку url-ссылок
+\usepackage{hyperref} % пакет для интеграции гиперссылок
+\usepackage{amsmath} % добавляем поддержку математических символов
+\usepackage{multirow} % понадобится для создания таблицы с объединенными строками
+\usepackage{pdfpages}% Добавление внешних pdf файлов
+\usepackage{tocloft}
+\renewcommand{\cftsecfont}{\mdseries}
+\renewcommand{\cftsecpagefont}{\mdseries}
+\cftsetindents{section}{0em}{2em}
+\cftsetindents{subsection}{0em}{3em}
+\cftsetindents{subsubsection}{0em}{4em}
+\renewcommand\cfttoctitlefont{\hfill\normalsize\mdseries}
+\renewcommand\cftaftertoctitle{\hfill\mbox{}}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman} %шрифт 
+\graphicspath{{images/}}%путь к рисункам
+\usepackage[14pt]{extsizes} % для того чтобы задать нестандартный 14-ый размер шрифта
+
+%\makeatletter
+%\renewcommand{\@biblabel}[1]{#1.} % Заменяем библиографию с квадратных скобок на точку:
+%\makeatother
+
+
+\usepackage[tableposition=top]{caption}
+\usepackage{subcaption}
+\DeclareCaptionLabelFormat{gostfigure}{Рисунок #2}
+\DeclareCaptionLabelFormat{gosttable}{Таблица #2}
+\DeclareCaptionLabelSeparator{gost}{~–~}
+\captionsetup{labelsep=gost}
+\captionsetup[figure]{labelformat=gostfigure}
+\captionsetup[table]{labelformat=gosttable}
+\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+
+
+\makeatletter
+
+\renewcommand{\section}{\@startsection{section}{1}{0pt}%
+                                {-3.5ex plus -1ex minus -.2ex}%
+                                {2.3ex plus .2ex}%
+{\centering\hyphenpenalty=10000\normalfont\normalsize\mdseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{1}{0pt}%
+                                {-3.5ex plus -1ex minus -.2ex}%
+                                {2.3ex plus .2ex}%
+{\centering\hyphenpenalty=10000\normalfont\normalsize\mdseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{1}{0pt}%
+                                {-3.5ex plus -1ex minus -.2ex}%
+                                {2.3ex plus .2ex}%
+{\centering\hyphenpenalty=10000\normalfont\normalsize\mdseries}}
+\makeatother
+
+\usepackage{fancyhdr}
+%\renewcommand{\bibname}{Список использованных источников}
+%\addcontentsline{toc}{chapter}{Список использованных источников}
+% \usepackage{pdflscape}
+
+\usepackage{setspace}
+
+% выравнивание по ширине
+\sloppy
+
+
+
+%%% Поля и разметка страницы %%%
+\usepackage{pdflscape}  % Для включения альбомных страниц
+\usepackage{geometry}   % Для последующего задания полей
+
+
+\geometry{left=3cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=2cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+\renewcommand{\theenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\labelenumi}{\arabic{enumi}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\theenumii}{.\arabic{enumii}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\theenumiii}{.\arabic{enumiii}}% Меняем везде перечисления на цифра.цифра
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}% Меняем везде перечисления на цифра.цифра
+
+\newcommand{\imgh}[3]{\begin{figure}[h]\center{\includegraphics[width=#1]{#2}}\caption{#3}\label{ris:#2}\end{figure}}
+\newcommand{\imghh}[3]{\begin{figure}[H]\center{\includegraphics[width=#1]{#2}}\caption{#3}\label{ris:#2}\end{figure}}
+
+\begin{document}
+
+\input{RefProject-Title}% это титульный лист
+
+\renewcommand{\contentsname}{СОДЕРЖАНИЕ}
+
+{\renewcommand{\baselinestretch}{1.5} %интервал для содержания
+% \tableofcontents
+       
+}
+%\input{RefProject-referat}% это описание
+\newpage
+\setcounter{page}{2}
+\input{RefProject-base}% это основной документ
+%\input{RefProject-Finish}% заключение
+%\input{RefProject-App}% приложение
+
+
+\begin{landscape}
+\imgh{250.5mm}{Figures/graph.png}{АЧХ, построенная по передаточной функции в программе Graph} 
+% текст в альбомной ориентации
+% (таблица, рисунок, схема и т. п.)
+\end{landscape}
+
+Расcчитанная схема была собрана в пакете Orcad (рисунок \ref{ris:Figures/orcad.png}), и там же была построена АЧХ фильтра(рисунок \ref{ris:Figures/orcad1.png}).
+
+
+\imgh{140.5mm}{Figures/orcad1.png}{Схема фильтра, собранная в пакете Orcad}
+\imghh{140.5mm}{Figures/orcad.png}{АЧХ, построенная в пакете Orcad} 
+Таким образом, результаты расчета и симуляции схемы полностью совпадают.
+\end{document}
