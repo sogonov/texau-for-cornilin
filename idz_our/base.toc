@@ -1,0 +1,8 @@
+\selectlanguage *[babelshorthands=true]{russian}
+\contentsline {section}{\numberline {1}Формализация текстового задания.}{2}{section.1}%
+\contentsline {section}{\numberline {2}Описание устройства с помощью VHDL}{2}{section.2}%
+\contentsline {section}{\numberline {3}Симуляция устройства}{4}{section.3}%
+\contentsline {section}{\numberline {4}Синтез цифрового устройства}{6}{section.4}%
+\contentsline {section}{\numberline {5}Реализация}{9}{section.5}%
+\contentsline {section}{\numberline {6}Программирование ПЛИС}{10}{section.6}%
+\contentsline {section}{\numberline {7}Проверка функционирования устройства на отладочной плате}{10}{section.7}%
