@@ -1,9 +1,9 @@
 \selectlanguage *[babelshorthands=true]{russian}
-\contentsline {section}{\numberline {1}Создание проекта и описание устройства с помощью VHDL}{2}{section.1}%
-\contentsline {section}{\numberline {2}Симуляция устройства}{2}{section.2}%
-\contentsline {section}{\numberline {3}Синтез цифрового устройства}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Схема цифрового устройства}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Временные ограничения}{6}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Реализация}{8}{section.4}%
-\contentsline {section}{\numberline {5}Индивидуальные задания}{10}{section.5}%
-\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{14}{section*.21}%
+\contentsline {section}{\numberline {1}Структура устройства}{3}{section.1}%
+\contentsline {section}{\numberline {2}Создание устройства}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Создание схемы устройства}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Симуляция}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Синтез}{8}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Реализация}{10}{section.3}%
+\contentsline {section}{\numberline {4}Программирование ПЛИС}{10}{section.4}%
+\contentsline {section}{\numberline {5}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{10}{section.5}%

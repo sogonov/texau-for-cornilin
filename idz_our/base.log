@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  17 NOV 2022 06:37
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  17 NOV 2022 06:43
  system commands enabled.
 **base.tex
 (./base.tex
@@ -211,12 +211,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            hyphenation	hyph-ru.hyp.txt
+(polyglossia)            loader	loadhyph-ru.tex
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            synonyms	
 (polyglossia)            lefthyphenmin	2
 (polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-ru.tex on input line 17
+(polyglossia)            synonyms	
+(polyglossia)            hyphenation	hyph-ru.hyp.txt on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1160,55 +1160,55 @@ Package luatex.def Info: Figures/1.png  used on input line 13.
 <Figures/2.png, id=74, 644.4075pt x 162.6075pt>
 File: Figures/2.png Graphic file (type png)
 <use Figures/2.png>
-Package luatex.def Info: Figures/2.png  used on input line 62.
+Package luatex.def Info: Figures/2.png  used on input line 64.
 (luatex.def)             Requested size: 456.66672pt x 115.23874pt.
 <Figures/3.png, id=75, 585.68813pt x 158.84344pt>
 File: Figures/3.png Graphic file (type png)
 <use Figures/3.png>
-Package luatex.def Info: Figures/3.png  used on input line 64.
+Package luatex.def Info: Figures/3.png  used on input line 65.
 (luatex.def)             Requested size: 456.66672pt x 123.85617pt.
 <Figures/4.png, id=76, 578.91281pt x 161.10187pt>
 File: Figures/4.png Graphic file (type png)
 <use Figures/4.png>
-Package luatex.def Info: Figures/4.png  used on input line 65.
+Package luatex.def Info: Figures/4.png  used on input line 66.
 (luatex.def)             Requested size: 456.66672pt x 127.08224pt.
 <Figures/5.png, id=77, 630.85687pt x 164.11313pt>
 File: Figures/5.png Graphic file (type png)
 <use Figures/5.png>
-Package luatex.def Info: Figures/5.png  used on input line 66.
+Package luatex.def Info: Figures/5.png  used on input line 67.
 (luatex.def)             Requested size: 456.66672pt x 118.79991pt.
 <Figures/6.png, id=78, 652.68843pt x 162.6075pt>
 File: Figures/6.png Graphic file (type png)
 <use Figures/6.png>
-Package luatex.def Info: Figures/6.png  used on input line 67.
+Package luatex.def Info: Figures/6.png  used on input line 68.
 (luatex.def)             Requested size: 456.66672pt x 113.77484pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <Figures/7.png, id=79, 544.28343pt x 172.39406pt>
 File: Figures/7.png Graphic file (type png)
 <use Figures/7.png>
-Package luatex.def Info: Figures/7.png  used on input line 69.
+Package luatex.def Info: Figures/7.png  used on input line 72.
 (luatex.def)             Requested size: 456.66672pt x 144.64166pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [5] [6<./Figures/2.png><./Figures/3.png><./Figures/7.png>] [7<./Figures/4.png><.
 /Figures/5.png><./Figures/6.png>]
 <Figures/sch.png, id=108, 1015.54407pt x 471.26062pt>
 File: Figures/sch.png Graphic file (type png)
 <use Figures/sch.png>
-Package luatex.def Info: Figures/sch.png  used on input line 76.
+Package luatex.def Info: Figures/sch.png  used on input line 79.
 (luatex.def)             Requested size: 712.74153pt x 330.75748pt.
  [8
 
@@ -1216,12 +1216,12 @@ Package luatex.def Info: Figures/sch.png  used on input line 76.
 <Figures/port.png, id=114, 698.61pt x 281.55188pt>
 File: Figures/port.png Graphic file (type png)
 <use Figures/port.png>
-Package luatex.def Info: Figures/port.png  used on input line 86.
+Package luatex.def Info: Figures/port.png  used on input line 89.
 (luatex.def)             Requested size: 456.66672pt x 184.0462pt.
 <Figures/timing.png, id=116, 738.50906pt x 436.63126pt>
 File: Figures/timing.png Graphic file (type png)
 <use Figures/timing.png>
-Package luatex.def Info: Figures/timing.png  used on input line 92.
+Package luatex.def Info: Figures/timing.png  used on input line 95.
 (luatex.def)             Requested size: 456.66672pt x 269.9957pt.
  [9
 
@@ -1325,9 +1325,6 @@ Package caption Warning: Unused \captionsetup[table] on input line 52.
 See the caption package documentation for explanation.
 
 [10<./Figures/timing.png>] (./base.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `base.out' has not changed.
 (rerunfilecheck)             Checksum: 4CBDCC219806CFCF13516499024DBC2A;1886.
 runsystem(del base.pyg)...executed
@@ -1339,14 +1336,14 @@ Here is how much of LuaTeX's memory you used:
  658 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 86 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 1:1,2:3712,3:255,4:2058,5:753,6:36,7:6060,8:26,9:373,10:28,11:56
+   avail lists: 1:1,2:3712,3:253,4:2058,5:753,6:36,7:6060,8:26,9:377,10:28,11:56
 8
  42164 multiletter control sequences out of 65536+600000
  65 fonts using 21458467 bytes
  86i,7n,115p,1872b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/tim
 es.ttf>
-Output written on base.pdf (11 pages, 335791 bytes).
+Output written on base.pdf (11 pages, 335813 bytes).
 
 PDF statistics: 157 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams

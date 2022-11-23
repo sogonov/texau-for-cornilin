@@ -1,9 +1,9 @@
 \selectlanguage *[babelshorthands=true]{russian}
-\contentsline {section}{\numberline {1}Создание проекта и описание устройства с помощью VHDL}{2}{section.1}%
-\contentsline {section}{\numberline {2}Симуляция устройства}{2}{section.2}%
-\contentsline {section}{\numberline {3}Синтез цифрового устройства}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Схема цифрового устройства}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Временные ограничения}{6}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Реализация}{8}{section.4}%
-\contentsline {section}{\numberline {5}Индивидуальные задания}{10}{section.5}%
-\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{14}{section*.21}%
+\contentsline {section}{\numberline {1}Создание проекта и описание устройства с помощью VHDL}{3}{section.1}%
+\contentsline {section}{\numberline {2}Симуляция устройства}{3}{section.2}%
+\contentsline {section}{\numberline {3}Синтез цифрового устройства}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Схема цифрового устройства}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Временные ограничения}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Реализация}{9}{section.4}%
+\contentsline {section}{\numberline {5}Индивидуальные задания}{11}{section.5}%
+\contentsline {section}{\hspace {1mm}ОТВЕТЫ НА ВОПРОСЫ ДЛЯ САМОПРОВЕРКИ}{15}{section*.21}%

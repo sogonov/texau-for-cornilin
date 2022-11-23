@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 NOV 2022 18:46
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  17 NOV 2022 07:08
  system commands enabled.
 **base.tex
 (./base.tex
@@ -211,12 +211,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            righthyphenmin	2
-(polyglossia)            loader	loadhyph-ru.tex
-(polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            patterns	hyph-ru.pat.txt
 (polyglossia)            synonyms	
-(polyglossia)            lefthyphenmin	2 on input line 17
+(polyglossia)            loader	loadhyph-ru.tex
+(polyglossia)            patterns	hyph-ru.pat.txt
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            hyphenation	hyph-ru.hyp.txt
+(polyglossia)            righthyphenmin	2 on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -912,10 +912,6 @@ lig;"
 ;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-
-
-LaTeX Warning: Label `ris:Figures/port.png' multiply defined.
-
 )
 \openout1 = base.aux
 
@@ -930,7 +926,8 @@ LaTeX Font Info:    ... okay on input line 103.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 03.
- (e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(e:/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 103.
@@ -1143,128 +1140,83 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write6
 
 \openout6 = base.toc
- (./RefProject-base.tex [2]
-<Figures/2022-10-10_22-59-24.png, id=56, 424.58624pt x 233.37187pt>
-File: Figures/2022-10-10_22-59-24.png Graphic file (type png)
-<use Figures/2022-10-10_22-59-24.png>
-Package luatex.def Info: Figures/2022-10-10_22-59-24.png  used on input line 9.
+ (./RefProject-base.tex
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1]
+<Figures/1.png, id=50, 514.17094pt x 254.45062pt>
+File: Figures/1.png Graphic file (type png)
+<use Figures/1.png>
+Package luatex.def Info: Figures/1.png  used on input line 11.
+(luatex.def)             Requested size: 456.66672pt x 225.9983pt.
+ (./_minted-base/default.pygstyle)
+(./_minted-base/F2CD9D153FEF830FFD64FF2436AD7EBE422530C22C00DB7CDB387B3EE29DA07
+4.pygtex [2<./Figures/1.png>] [3])
+\openout3 = base.pyg
 
-(luatex.def)             Requested size: 456.66672pt x 251.01585pt.
- [3<./Figures/2022-10-10_22-59-24.png>]
-<Figures/sch.png, id=65, 737.00343pt x 387.69844pt>
+(./_minted-base/8BBE328F22AA6DC8221C4ADB146163696D45A0F3E1F73E81E8F823C42D84B57
+8.pygtex)
+(./_minted-base/E49FAE0A0E8B2D6B1B2E630614C59D3A01759B8B8BE200C0DEB5049B7F65C2B
+4.pygtex [4]) [5]
+<Figures/2.png, id=86, 644.4075pt x 162.6075pt>
+File: Figures/2.png Graphic file (type png)
+<use Figures/2.png>
+Package luatex.def Info: Figures/2.png  used on input line 64.
+(luatex.def)             Requested size: 456.66672pt x 115.23874pt.
+<Figures/3.png, id=87, 585.68813pt x 158.84344pt>
+File: Figures/3.png Graphic file (type png)
+<use Figures/3.png>
+Package luatex.def Info: Figures/3.png  used on input line 65.
+(luatex.def)             Requested size: 456.66672pt x 123.85617pt.
+<Figures/4.png, id=88, 578.91281pt x 161.10187pt>
+File: Figures/4.png Graphic file (type png)
+<use Figures/4.png>
+Package luatex.def Info: Figures/4.png  used on input line 66.
+(luatex.def)             Requested size: 456.66672pt x 127.08224pt.
+<Figures/5.png, id=89, 630.85687pt x 164.11313pt>
+File: Figures/5.png Graphic file (type png)
+<use Figures/5.png>
+Package luatex.def Info: Figures/5.png  used on input line 67.
+(luatex.def)             Requested size: 456.66672pt x 118.79991pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/6.png, id=90, 652.68843pt x 162.6075pt>
+File: Figures/6.png Graphic file (type png)
+<use Figures/6.png>
+Package luatex.def Info: Figures/6.png  used on input line 68.
+(luatex.def)             Requested size: 456.66672pt x 113.77484pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/7.png, id=91, 544.28343pt x 172.39406pt>
+File: Figures/7.png Graphic file (type png)
+<use Figures/7.png>
+Package luatex.def Info: Figures/7.png  used on input line 69.
+(luatex.def)             Requested size: 456.66672pt x 144.64166pt.
+[6<./Figures/2.png><./Figures/3.png><./Figures/4.png><./Figures/7.png>]
+[7<./Figures/5.png><./Figures/6.png>]
+<Figures/sch.png, id=109, 1015.54407pt x 471.26062pt>
 File: Figures/sch.png Graphic file (type png)
 <use Figures/sch.png>
-Package luatex.def Info: Figures/sch.png  used on input line 36.
-(luatex.def)             Requested size: 456.66672pt x 240.22856pt.
- (./_minted-base/default.pygstyle)
-(./_minted-base/B9BF1BF7C6442856CD36EBF046380C3001759B8B8BE200C0DEB5049B7F65C2B
-4.pygtex [4<./Figures/sch.png>])
-<Figures/reset.png, id=77, 430.60875pt x 295.1025pt>
-File: Figures/reset.png Graphic file (type png)
-<use Figures/reset.png>
-Package luatex.def Info: Figures/reset.png  used on input line 55.
-(luatex.def)             Requested size: 456.66672pt x 312.96924pt.
-<Figures/updown1.png, id=78, 431.36156pt x 290.58563pt>
-File: Figures/updown1.png Graphic file (type png)
-<use Figures/updown1.png>
-Package luatex.def Info: Figures/updown1.png  used on input line 56.
-(luatex.def)             Requested size: 456.66672pt x 307.64241pt.
- [5]
-<Figures/updown0.png, id=90, 428.35031pt x 295.85532pt>
-File: Figures/updown0.png Graphic file (type png)
-<use Figures/updown0.png>
-Package luatex.def Info: Figures/updown0.png  used on input line 57.
-(luatex.def)             Requested size: 456.66672pt x 315.41539pt.
-<Figures/updown.png, id=91, 426.84468pt x 313.9228pt>
-File: Figures/updown.png Graphic file (type png)
-<use Figures/updown.png>
-Package luatex.def Info: Figures/updown.png  used on input line 58.
-(luatex.def)             Requested size: 456.66672pt x 335.8797pt.
- [6<./Figures/reset.png><./Figures/updown1.png>] [7<./Figures/updown0.png><./Fig
-ures/updown.png>]
-<Figures/port.png, id=105, 700.86844pt x 318.43968pt>
+Package luatex.def Info: Figures/sch.png  used on input line 76.
+(luatex.def)             Requested size: 712.74153pt x 330.75748pt.
+ [8
+
+<./Figures/sch.png>]
+<Figures/port.png, id=115, 698.61pt x 281.55188pt>
 File: Figures/port.png Graphic file (type png)
 <use Figures/port.png>
-Package luatex.def Info: Figures/port.png  used on input line 70.
-(luatex.def)             Requested size: 456.66672pt x 207.48868pt.
- [8<./Figures/port.png>]
-<Figures/synth.png, id=114, 989.19562pt x 429.10312pt>
-File: Figures/synth.png Graphic file (type png)
-<use Figures/synth.png>
-Package luatex.def Info: Figures/synth.png  used on input line 72.
-(luatex.def)             Requested size: 712.74153pt x 309.17662pt.
-
-[9
-
-<./Figures/synth.png>]
-<Figures/timing.png, id=121, 849.1725pt x 171.64125pt>
+Package luatex.def Info: Figures/port.png  used on input line 86.
+(luatex.def)             Requested size: 456.66672pt x 184.0462pt.
+<Figures/timing.png, id=117, 738.50906pt x 436.63126pt>
 File: Figures/timing.png Graphic file (type png)
 <use Figures/timing.png>
-Package luatex.def Info: Figures/timing.png  used on input line 82.
-(luatex.def)             Requested size: 456.66672pt x 92.30511pt.
- [10
+Package luatex.def Info: Figures/timing.png  used on input line 92.
+(luatex.def)             Requested size: 456.66672pt x 269.9957pt.
+ [9
 
-<./Figures/timing.png>]
-(./_minted-base/63A6314A252350352A589A4CE357E92E926DAF0997D76D5F1E34F7B5E1698D1
-1.pygtex [11])
-<Figures/deb.png, id=135, 798.73407pt x 150.5625pt>
-File: Figures/deb.png Graphic file (type png)
-<use Figures/deb.png>
-Package luatex.def Info: Figures/deb.png  used on input line 135.
-(luatex.def)             Requested size: 456.66672pt x 86.0834pt.
-<Figures/deb1.png, id=136, 813.79031pt x 131.74219pt>
-File: Figures/deb1.png Graphic file (type png)
-<use Figures/deb1.png>
-Package luatex.def Info: Figures/deb1.png  used on input line 136.
-(luatex.def)             Requested size: 456.66672pt x 73.92789pt.
-
-(./_minted-base/AA4FA70BEFBC3AD87BAF772F160C3C924001175CA0B79F08CB9E516AD039B24
-2.pygtex [12<./Figures/deb.png><./Figures/deb1.png>] [13])
-\openout3 = base.pyg
-
-(./_minted-base/66188C30835267A638FB44782CE3FD926D45A0F3E1F73E81E8F823C42D84B57
-8.pygtex)
-<Figures/div2.png, id=150, 298.86656pt x 176.15813pt>
-File: Figures/div2.png Graphic file (type png)
-<use Figures/div2.png>
-Package luatex.def Info: Figures/div2.png  used on input line 174.
-(luatex.def)             Requested size: 456.66672pt x 269.18773pt.
-
-\openout3 = base.pyg
-
-(./_minted-base/ED81C30913B9CCAA3732CDA06B8800396D45A0F3E1F73E81E8F823C42D84B57
-8.pygtex [14<./Figures/div2.png>])
-<Figures/div3.png, id=160, 506.6428pt x 200.24812pt>
-File: Figures/div3.png Graphic file (type png)
-<use Figures/div3.png>
-Package luatex.def Info: Figures/div3.png  used on input line 198.
-(luatex.def)             Requested size: 456.66672pt x 180.4997pt.
-<Figures/div3_2.png, id=161, 505.13719pt x 208.52907pt>
-File: Figures/div3_2.png Graphic file (type png)
-<use Figures/div3_2.png>
-Package luatex.def Info: Figures/div3_2.png  used on input line 202.
-(luatex.def)             Requested size: 456.66672pt x 188.5208pt.
-<Figures/div3_22.png, id=163, 798.73407pt x 176.91093pt>
-File: Figures/div3_22.png Graphic file (type png)
-<use Figures/div3_22.png>
-Package luatex.def Info: Figures/div3_22.png  used on input line 206.
-(luatex.def)             Requested size: 456.66672pt x 101.14801pt.
- [15<./Figures/div3.png><./Figures/div3_2.png>]
-(./_minted-base/E61196F16C78A0F13AF36448679786484A0BBD40CD6473EDA067CFDC6EE439F
-F.pygtex)
-(./_minted-base/1B40492413DE827EE196F2E4A19BD87E93B53F5F3BCC79A233A03E1D7B7AA90
-E.pygtex [16<./Figures/div3_22.png>])
-File: Figures/port.png Graphic file (type png)
-<use Figures/port.png>
-Package luatex.def Info: Figures/port.png  used on input line 247.
-(luatex.def)             Requested size: 456.66672pt x 207.48868pt.
- [17]
-<Figures/datash.png, id=186, 383.18156pt x 502.87875pt>
-File: Figures/datash.png Graphic file (type png)
-<use Figures/datash.png>
-Package luatex.def Info: Figures/datash.png  used on input line 252.
-(luatex.def)             Requested size: 456.66672pt x 599.35394pt.
- [18])
+<./Figures/port.png>])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1363,32 +1315,32 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 Package caption Warning: Unused \captionsetup[table] on input line 52.
 See the caption package documentation for explanation.
 
-[19<./Figures/datash.png>] (./base.aux)
+[10<./Figures/timing.png>] (./base.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `base.out' has not changed.
-(rerunfilecheck)             Checksum: A86FF58B3F8A16E3C3F028139BF59EDD;1538.
+(rerunfilecheck)             Checksum: 4CBDCC219806CFCF13516499024DBC2A;1886.
 runsystem(del base.pyg)...executed
 )
 
 Here is how much of LuaTeX's memory you used:
- 22256 strings out of 477356
+ 22078 strings out of 477356
  125038,953878 words of node,token memory allocated
  658 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 7 attribute, 86 glue_spec,
  7 attribute_list, 1 write nodes
-   avail lists: 2:3156,3:166,4:1752,5:1061,6:33,7:6336,8:19,9:450,10:21,11:816
- 42222 multiletter control sequences out of 65536+600000
- 67 fonts using 22912623 bytes
- 86i,7n,115p,1013b,806s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/tim
-es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/
-texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on base.pdf (19 pages, 744106 bytes).
+   avail lists: 1:1,2:3352,3:192,4:1904,5:773,6:36,7:6129,8:20,9:298,10:27,11:60
+9
+ 42165 multiletter control sequences out of 65536+600000
+ 66 fonts using 22157119 bytes
+ 86i,7n,115p,2260b,798s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/timesbi.ttf><c:/Windows/Fonts/tim
+esbd.ttf><c:/Windows/Fonts/times.ttf>
+Output written on base.pdf (11 pages, 358577 bytes).
 
-PDF statistics: 232 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 163 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 131072)
+ 57 words of extra memory for PDF output out of 10000 (max. 100000000)
 
