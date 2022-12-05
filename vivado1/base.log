@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  23 NOV 2022 18:45
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  1 DEC 2022 11:54
  system commands enabled.
 **base.tex
 (./base.tex
@@ -211,11 +211,11 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            righthyphenmin	2
 (polyglossia)            loader	loadhyph-ru.tex
-(polyglossia)            lefthyphenmin	2
 (polyglossia)            hyphenation	hyph-ru.hyp.txt
+(polyglossia)            righthyphenmin	2
 (polyglossia)            patterns	hyph-ru.pat.txt
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            synonyms	 on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
@@ -1115,21 +1115,21 @@ Package caption Info: End \AtBeginDocument code.
 \lbox=\box67
 \maxl=\skip92
 
-Underfull \hbox (badness 10000) detected at line 43
+Underfull \hbox (badness 10000) detected at line 44
 \TU/TimesNewRoman(2)/m/n/14.4 6364-120304D
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
 
 (e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
 
 
 (e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1420,9 +1420,6 @@ Package caption Warning: Unused \captionsetup[table] on input line 52.
 See the caption package documentation for explanation.
 
 [18] (./base.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `base.out' has not changed.
 (rerunfilecheck)             Checksum: 28E8BA725C0BFBD7712650D8CF775E29;2074.
 )
@@ -1443,7 +1440,7 @@ es.ttf><e:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:
 022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><e:/texlive/2022/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmr12.pfb><e:/texlive/2022/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on base.pdf (18 pages, 671294 bytes).
+Output written on base.pdf (18 pages, 671313 bytes).
 
 PDF statistics: 241 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
