@@ -1,0 +1,6 @@
+\selectlanguage *[babelshorthands=true]{russian}
+\contentsline {section}{\numberline {1}Начало работы с Visual Studio}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Создание исходных файлов}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Добавление ассемблерной вставки}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Исследование с помощью disassembly}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Организация взаимодействия между программами на ассемблере и Си}{7}{subsection.1.4}%

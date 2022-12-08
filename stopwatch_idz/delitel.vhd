@@ -5,24 +5,24 @@ USE IEEE.NUMERIC_STD.ALL;
 
 entity stopwatch is    --Декларация entity и описание портов
 	Port ( 
-		clk : in  STD_LOGIC;           
-		reset : in  STD_LOGIC;
-		start : in  STD_LOGIC;
-		seg : out STD_LOGIC_VECTOR (6 downto 0);
-        dig  : out STD_LOGIC_VECTOR (3 downto 0)
-		);
+			clk : in  STD_LOGIC;           
+			reset : in  STD_LOGIC;
+			start : in  STD_LOGIC;
+			seg : out STD_LOGIC_VECTOR (6 downto 0);
+			dig : out STD_LOGIC_VECTOR (3 downto 0)
+	   );
 end stopwatch;
 
 architecture Behavioral of stopwatch is  
 --Архитектура Behavioral для интерфейса stopwatch
 --внутренние сигналы
-signal cnt:   unsigned(28 downto 0);   
-signal start_stop: STD_LOGIC;   
+signal cnt:   unsigned(28 downto 0);    
 signal msec: unsigned(3 downto 0);
 signal sec_e: unsigned(3 downto 0);
 signal sec_d: unsigned(3 downto 0);
 signal min_e: unsigned(3 downto 0);
 signal hex: unsigned(19 downto 0);
+signal start_stop: std_logic;  
 signal Q1, Q2, Q3, start_up: std_logic;
 
 
@@ -112,8 +112,8 @@ end if;
 if rising_edge(CLK) then -- по переднему фронту тактового сигнала начинаем счет 
     if start_stop='1' then --проверка положения нажатия кнопки старт-стоп
        if cnt=to_unsigned(10_000_000,28) then cnt <= (others => '0'); 
-       --если досчитали до миллиона, сбросить счетчик. На выходе счетчика получаем такты 
-       --частой 100Гц, что соответствует периоду 10мс
+       --если досчитали до 10 миллионов, сбросить счетчик. На выходе счетчика получаем такты 
+       --частотой 10Гц, что соответствует периоду 1мс
             if msec=9 then msec <= x"0";
                 if sec_e=9 then sec_e <= x"0";
                     if sec_d=5 then sec_d <= x"0";
