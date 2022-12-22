@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  10 DEC 2022 19:36
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.9.4)  10 DEC 2022 20:02
  system commands enabled.
 **base.tex
 (./base.tex
@@ -211,12 +211,12 @@ braces):
 >  {russian/Localnumeral}  =>  {Russiannumerals}
 >  {russian/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Module polyglossia Info: Language data for russian
-(polyglossia)            hyphenation	hyph-ru.hyp.txt
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            synonyms	
+(polyglossia)            loader	loadhyph-ru.tex
 (polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	
+(polyglossia)            lefthyphenmin	2
 (polyglossia)            patterns	hyph-ru.pat.txt
-(polyglossia)            loader	loadhyph-ru.tex on input line 17
+(polyglossia)            hyphenation	hyph-ru.hyp.txt on input line 17
 Module polyglossia Info: Language russian was not yet loaded; created with id 2 
 on input line 17
 Package polyglossia Info: Option: Russian, numerals=arabic.
@@ -1111,93 +1111,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./RefProject-Title.tex
-\lbox=\box67
-\maxl=\skip92
-
-Underfull \hbox (badness 10000) detected at line 40
-\TU/TimesNewRoman(2)/m/n/14.4 6364-120304D
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
-
-(e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
-
-
-(e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{e:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./base.toc)
-\tf@toc=\write6
-
-\openout6 = base.toc
- (./RefProject-base.tex [2] (./_minted-base/default.pygstyle)
-(./_minted-base/0F27CA7B00934B6431191F23F4DB0600F6D0ADC83EABCFB0DAF2D7E283BF720
-7.pygtex)
-<Figures/source1.png, id=42, 528.47438pt x 279.29344pt>
-File: Figures/source1.png Graphic file (type png)
-<use Figures/source1.png>
-Package luatex.def Info: Figures/source1.png  used on input line 22.
-(luatex.def)             Requested size: 456.66672pt x 241.34259pt.
- [3]
-(./_minted-base/E9E810BC1031770E2C3A69DEFBD8B9839817E4D49A0F15F2CE08D75BC18EEEB
-3.pygtex)
-<Figures/source2.png, id=52, 545.78906pt x 249.93375pt>
-File: Figures/source2.png Graphic file (type png)
-<use Figures/source2.png>
-Package luatex.def Info: Figures/source2.png  used on input line 38.
-(luatex.def)             Requested size: 456.66672pt x 209.12297pt.
- [4<./Figures/source1.png>]
-(./_minted-base/4BEE6F7F95E2A9665DCC0DEF354C25C672C060389B5C244C57BEC396BFF58C0
-6.pygtex)
-<Figures/source3.png, id=61, 444.15938pt x 336.50719pt>
-File: Figures/source3.png Graphic file (type png)
-<use Figures/source3.png>
-Package luatex.def Info: Figures/source3.png  used on input line 53.
-(luatex.def)             Requested size: 456.66672pt x 345.97983pt.
-<Figures/source3_2.png, id=62, 657.2053pt x 337.26pt>
-File: Figures/source3_2.png Graphic file (type png)
-<use Figures/source3_2.png>
-Package luatex.def Info: Figures/source3_2.png  used on input line 54.
-(luatex.def)             Requested size: 456.66672pt x 234.35127pt.
- [5<./Figures/source2.png>] [6<./Figures/source3.png><./Figures/source3_2.png>]
-
+(./RefProject-base.tex
 \openout3 = base.pyg
+ (./_minted-base/default.pygstyle)
+runsystem(pygmentize -l gas -f latex -P commandprefix=PYG -F tokenmerge -P strip
+nl=False -o _minted-base/A06A35F324C054266701E0520290BADE9D68606193B6D8E49C477F4
+DFB982AE5.pygtex base.pyg)...executed
 
-(./_minted-base/68DE8039AC9F672009B6335493BD16B519320308E8AAFE17D885F2E4E588E1B
-8.pygtex
-Underfull \hbox (badness 2443) in paragraph at lines 62--1
-[]\TU/TimesNewRoman(2)/m/n/14.4 На-стро-ен ком-пи-ля-тор д
-ля ав-томати-че-ско-го ас-сем-бли-ро-ва-ния ф
-ай-лов
- []
+(./_minted-base/A06A35F324C054266701E0520290BADE9D68606193B6D8E49C477F4DFB982AE
+5.pygtex [2
 
-)
-<Figures/compiler.png, id=78, 627.84563pt x 186.6975pt>
-File: Figures/compiler.png Graphic file (type png)
-<use Figures/compiler.png>
-Package luatex.def Info: Figures/compiler.png  used on input line 78.
-(luatex.def)             Requested size: 456.66672pt x 135.7952pt.
-
-(./_minted-base/1012D78C0E456593CD7DB54C1CF7EEB0CDA1D80E19E4DA2B87C409645F74183
-A.pygtex)
-(./_minted-base/DE96869B36060867DA91C5AACA5769E0FDF35B4D96ADCE8D4E9EEAEAE841E1D
-A.pygtex [7<./Figures/compiler.png>])
-<Figures/source4.png, id=87, 533.74406pt x 231.86626pt>
-File: Figures/source4.png Graphic file (type png)
-<use Figures/source4.png>
-Package luatex.def Info: Figures/source4.png  used on input line 106.
-(luatex.def)             Requested size: 456.66672pt x 198.3892pt.
-)
+{e:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[3]))
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1291,33 +1216,38 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
+runsystem(del _minted-base\940CD1B12FE51F25268549FF29B1F4939D68606193B6D8E49C477
+F4DFB982AE5.pygtex)...executed
+
+
+Package caption Warning: Unused \captionsetup[figure] on input line 51.
+See the caption package documentation for explanation.
 
 
 Package caption Warning: Unused \captionsetup[table] on input line 52.
 See the caption package documentation for explanation.
 
-[8<./Figures/source4.png>] (./base.aux)
+[4] (./base.aux)
 Package rerunfilecheck Info: File `base.out' has not changed.
-(rerunfilecheck)             Checksum: 2821BF950454FF5A531708B331E047C1;1650.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 runsystem(del base.pyg)...executed
 )
 
 Here is how much of LuaTeX's memory you used:
- 22076 strings out of 477356
+ 21812 strings out of 477356
  125038,953878 words of node,token memory allocated
- 668 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 86 glue_spec,
- 8 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:1306,3:141,4:520,5:569,6:35,7:3416,8:14,9:269,10:20,11:384
- 42150 multiletter control sequences out of 65536+600000
- 63 fonts using 20222459 bytes
- 86i,7n,115p,967b,694s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/timesbd.ttf><c:/Windows/Fonts/timesi.ttf><c:/Windows/Fonts/tim
-es.ttf>
-Output written on base.pdf (8 pages, 268344 bytes).
+ 654 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 6 attribute, 86 glue_spec,
+ 6 attribute_list, 1 write nodes
+   avail lists: 2:1106,3:196,4:661,5:1283,6:1,7:7792,8:6,9:450,11:702
+ 42038 multiletter control sequences out of 65536+600000
+ 44 fonts using 18721135 bytes
+ 86i,5n,115p,496b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/times.ttf><c:/Windows/Fonts/timesi.ttf>
+Output written on base.pdf (3 pages, 76424 bytes).
 
-PDF statistics: 119 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 131072)
- 41 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 37 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
